@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>b1</title>
+    <style type="text/css">
+        form{
+            font-family: Arial, Verdana, sans-serif;
+            font-weight: bold;
+
+        }
+        
+        option{
+            color: white;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Your Details</legend>
+        <label>Name:<br><input type="text" name="name"></label><br>
+        <label>Email:<br><input type="text" name="email"></label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Your Review</legend>
+        <label>How did you hear about us?</label>
+        <select name="Review"  >
+            <option value="Google">Google</option>
+            <option value="Friend">Friend</option>
+            <option value="Advert" selected="selected">Advert</option>
+            <option value="Other" >Other</option>
+        </select><br>
+        <label>Would you visit agian </label><br>
+        <input type="radio" name="chose" value="yes"/>yes
+        <input type="radio" name="chose" value="no"/>no
+        <input type="radio" name="chose" value="maybe"/>maybe<br>
+         <label>Comment</label><br>
+        <textarea name="comment" cols="50" rows="5"></textarea><br>
+        <input type="checkbox" value="check">
+        Sign me up for email updates<br>
+        <input type="submit" value="Submit review" name="submit">
+    </fieldset>
+</form>
+</body>
+</html>
