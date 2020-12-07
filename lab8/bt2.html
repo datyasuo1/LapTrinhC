@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <style type="text/css">
+        table{
+            border-collapse: collapse;
+
+        }
+        td,th{
+            padding: 6px;
+            text-align: center;
+            font-weight: bold;
+        }
+        #shadow{
+            text-shadow: 3px 1px 8px #6C4B3D;
+            color: white;
+            background-color:#97B4D3;
+           border-top:1px solid #97B4D3 ;
+            border-bottom:3px solid #5D7C9D;
+        }
+        form{
+            line-height: 40px;
+            font-weight: bold;
+            font-family:  "VN.Courier New";
+        }
+        .a{
+            background-color: #E2E9EF;
+        }
+        .b{
+            background-color: #E9EFF4;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Poetry Workshop</h1>
+<p>We will conduting a number of proety workshops and symposiums throughout the year.<br>
+Please note that the flowing events are free member:</p>
+<div><img src="icon-plus.png" height="12" width="12"/>A Poetic Perspective<br>
+    <img src="icon-plus.png" height="12" width="12"/>Walt Whiteman at War<br>
+    <img src="icon-plus.png" height="12" width="12"/>Found Poems and Qutsiden Poetry</div>
+<table border="1">
+    <tr id="shadow">
+        <th></th>
+        <th>New York</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+    </tr>
+    <tr class="a">
+      <th>A Poetic Perspective</th>
+      <td>Sat,4 Feb 2021<br>11am-2pm</td>
+      <td>Sat, 3 Mar2021<br>11am-2pm</td>
+        <td>Sat, 17 Mar2021<br>11am-2pm</td>
+    </tr>
+    <tr class="b">
+        <th>Walt Whitman a War</th>
+        <td>Sat, 3 Apr 2021<br>11am-1pm</td>
+        <td>Sat, 5 Apr 2021<br>11am-1pm</td>
+        <td>Sat, 19 Apr 2021<br>11am-1pm</td>
+    </tr>
+    <tr class="a">
+        <th>Found Poems & Outsident Poetry</th>
+        <td>Sat, 9 Jum 2021<br>11am-2pm</td>
+        <td>Sat, 7 Jum 2021<br>11am-2pm</td>
+        <td>Sat, 21 Jum 2021<br>11am-2pm</td>
+    </tr>
+    <tr class="b">
+        <th>Natural Death:An Exploration</th>
+        <td>Sat, 4 Aug 2021<br>11am-4pm</td>
+        <td>Sat, 8 Aug 2021<br>11am-4pm</td>
+        <td>Sat, 15 Aug 2021<br>11am-4pm</td>
+    </tr>
+</table>
+<br>
+    <div>
+        <form>
+            <fieldset>
+             <legend><em>Register your interest</em></legend>
+                <label>Your name:<input name="text" type="text" maxlength="30"></label><br>
+                <label>Your email:<input name="tex" type="email"maxlength="15"></label><br>
+                <label>Your closest center:<select>
+                    <option value="New York">New York</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="San Francisco">San Francisco</option>
+                </select></label><br>
+                <label>Are you a member?<input type="radio" name="chose" value="chose">Yes
+                <input type="radio" value="chose" name="chose">No</label>
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</table>
+</body>
+</html>
