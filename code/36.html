@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.datatables.min.js">
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('datatable').dataTable();
+        });
+    </script>
+</head>
+<body style="font-family: Arial">
+<form id="form1" runat="server">
+    <div style="width: 500px; border: 1px solid black; padding: 5px">
+        <table id="datatable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>City</th>
+                <th>Coutry</th>
+                <th>Contiment</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>1</th>
+                <th>Mon</th>
+                <th>Col</th>
+                <th>Sou</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Bir</th>
+                <th>Uni</th>
+                <th>Eur</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Ban</th>
+                <th>Ind</th>
+                <th>Asi</th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+</body>
+</html>
