@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monster games</title>
+    <style type="text/css">
+     body{
+         background-color: #111111;
+         line-height: 32px;
+         position:relative;
+
+        }
+        #logo{
+            margin-left: 580px;
+            position: absolute;
+            z-index: 2;
+        }
+        h1{
+            color: #19732e;
+            font-size:15px;
+            margin-left: 550px;
+            position: absolute;
+            z-index: 2;
+        }
+        #content{
+            background-repeat: no-repeat;
+            background-image: url("images/frame.png");
+            height: 640px;
+            text-align: center;
+            margin-left: 460px;
+            position: absolute;
+            z-index: 3;
+            width: 615px;
+            margin-top: 56px;
+
+        }
+        img {
+            float: left;
+        }
+        #img{
+           width: 367px;
+            overflow: hidden;
+            padding-left: 92px;
+            padding-top: 84px;
+        }
+        #images{
+            z-index: 1;
+            position: absolute;
+            margin-left: -7px;
+            margin-top: -3px;
+            width: 1536px;
+        }
+    </style>
+</head>
+<body >
+<div ><img id="images" src="images/lightning-01.jpg" height="740px" width="1527px"></div>
+<div>
+
+    <div><img id="logo" src="images/Monster_Mashup.png" height="33" width="286"/><br>
+        <h1>Make your own monster face by clicking on the picture</h1>
+    </div>
+    <div id="content">
+        <div id="img">
+        <img src="images/headsstrip.jpg" height="172" width="3670"/>
+        <img src="images/eyesstrip.jpg" height="79" width="3670"/>
+        <img src="images/nosesstrip.jpg" height="86" width="3670"/>
+        <img src="images/mouthsstrip.jpg" height="123" width="3670"/>
+        </div>
+
+    </div>
+</div>
+<script>
+    var index=1;
+    changeImg = function (){
+        var imgs= ["images/lightning-02.jpg","images/lightning-01.jpg","images/lightning-03.jpg"];
+        document.getElementById('images').src=imgs[index];
+        index++;
+        if(index==3){
+            index=0;
+        }
+    }
+    setInterval(changeImg,1200);
+    </script>
+</body>
+</html>
+
