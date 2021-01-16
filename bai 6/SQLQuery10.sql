@@ -1,0 +1,1 @@
+Alter Database Customer_DB MODIFY Name = CUST_DB
