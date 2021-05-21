@@ -4,47 +4,57 @@ package testStudent;
 import java.util.Scanner;
 
 public class MainStudent {
-    private static Scanner scanner = new Scanner( System.in );
-    private static StudentList studentList = new StudentList( "1" );
-
+    private static Scanner scanner = new Scanner(System.in);
+    public  static  StudentList students = new StudentList("B123456");
     public static void main(String[] args) {
-        boolean quit = false;
-        while (!quit){
-            System.out.println("\nEnter action:(6 to show available action");
-            int action = Integer.parseInt( scanner.nextLine() );
+        boolean quite = false;
+        printAction();
+        while (!quite){
+            System.out.println("\n Enter action: (4 to show available actions)");
+            int action = scanner.nextInt();
             scanner.nextLine();
             switch (action){
                 case 1:
-                    addStudent();
+                    addNewStudent();
                     break;
                 case 2:
-                    studentList.displayStudentList();
+                    students.printStudentList();
                     break;
                 case 3:
-
+                    students.save();
                     break;
                 case 4:
-                    System.out.println("Byeeee");
-                    quit = true;
+                    System.out.println("\n Exit down .. ");
+                    quite = true;
                     break;
-
             }
         }
     }
-    public static void addStudent(){
-        System.out.println("Enter new student name:");
-        String Name = scanner.nextLine();
-        System.out.println("Enter ID student");
-        int ID = Integer.parseInt( scanner.nextLine() );
-        System.out.println("Enter address");
-        String Add = scanner.nextLine();
-        System.out.println("Enter phone number");
-        int Phone = Integer.parseInt( scanner.nextLine() );
-        Student newStudent = Student.createStudent( ID,Name,Add,Phone );
-        if (studentList.addNewStudent(newStudent)){
-            System.out.println("New contract adder:name="+Name+"");
+    private static void addNewStudent() {
+        System.out.println("Enter Student ID: ");
+        String id1 = scanner.nextLine();
+        System.out.println("Enter Student Name: ");
+        String name1 = scanner.nextLine();
+        System.out.println("Enter Student Address: ");
+        String address1 = scanner.nextLine();
+        System.out.println("Enter Student PhoneNumber: ");
+        String phoneNumber1 = scanner.nextLine();
+        Student newStudent = Student.createStudent(id1,name1,address1,phoneNumber1);
+        if(students.addNewStudent(newStudent)) {
+            System.out.println("New Student Added: ID = "+ id1 + " , Name" + name1+
+                    ", Address = "+address1+", Phone = "+phoneNumber1);
         }else {
-            System.out.println("Cannot add,"+Name+"already on file");
+            System.out.println("Can't add, " + name1 +" already on file");
         }
+    }
+
+    private static void printAction() {
+        System.out.println("\nAvailable actions:\npress");
+        System.out.println(
+                "1 - Add student records\n"+
+                        "2 - Display student records\n"+
+                        "3 - Save student records\n"+
+                        "4 - Exit\n");
+        System.out.println("Choose Your Action: ");
     }
 }

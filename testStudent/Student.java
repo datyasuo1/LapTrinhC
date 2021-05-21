@@ -1,37 +1,36 @@
 package testStudent;
 
-import ssesson2.jv2.Contact;
 
 public class Student {
-    private int studentID;
-    private String studentName;
+    private String studentID;
+    private String name;
     private String address;
-    private int phone;
+    private String phoneNumber;
 
-    public Student(int studentID, String studentName, String address, int phone) {
+    public Student(String studentID, String name, String address, String phoneNumber) {
         this.studentID = studentID;
-        this.studentName = studentName;
+        this.name = name;
         this.address = address;
-        this.phone = phone;
+        this.phoneNumber = phoneNumber;
     }
-    public static Student createStudent(int studentID,String studentName,String address,int phone){
-        return new Student( studentID,studentName,address,phone);
+    public  static Student createStudent(String studentID,String name,String address,String phoneNumber){
+        return new Student(studentID,name,address,phoneNumber);
     }
 
-    public int getStudentID() {
+    public String getStudentID() {
         return studentID;
     }
 
-    public void setStudentID(int studentID) {
+    public void setStudentID(String studentID) {
         this.studentID = studentID;
     }
 
-    public String getStudentName() {
-        return studentName;
+    public String getName() {
+        return name;
     }
 
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAddress() {
@@ -42,11 +41,11 @@ public class Student {
         this.address = address;
     }
 
-    public int getPhone() {
-        return phone;
+    public String getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setPhone(int phone) {
-        this.phone = phone;
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }
