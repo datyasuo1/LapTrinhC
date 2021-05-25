@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Annual_Day company="Aptech">
+    <Event>
+       <!-- Gives the name of the people who played an important role. -->
+       <Coordinator>
+           James
+       </Coordinator>
+       <SoundManager>
+           Kim
+       </SoundManager>
+       <Director>
+           Daniel
+       </Director>
+    </Event>
+    <Event>
+        <!--Gives description of the evens. -->
+        Drama
+        <Name>A doctor is story</Name>
+        <Director>Spencor</Director>
+        <Participants number="4">Tonny,Bonny,Sam,LiLy</Participants >
+    </Event>
+    <Event>
+        Group Song
+        <Theme>Sales</Theme>
+        <Composer>Chin Chan</Composer>
+        <Participants number="3">Rose,Jack,Steven</Participants>
+    </Event>
+    <Event>
+          Prize Distribution
+    <Divivion>
+        Sales
+        <Team>Richard&quot;s team from LA</Team>
+    </Divivion>
+    <Divivion>
+        Marketing
+        <Team>Bill&quot;s team from NY</Team>
+    </Divivion>
+    </Event>
+</Annual_Day>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Bank xmlsn="http://www.aptechworldwide" xmlns:Transact="http://www.aptech.ec.in">
+    <Name>John Dykes</Name>
+    <Address>457,Kingston Road,New York</Address>
+    <Phone>4747777</Phone>
+    <AcountNumber Type="Saving">6578587779</AcountNumber>
+    <OpeningBalance>$35000</OpeningBalance>
+    <TransactionDetail>
+        <Transact:TransactionID Transact:Transaction="Deposit">457</Transact:TransactionID>
+        <ClosingBalance xmlns="http://www.aptech.edu.ac">$36000</ClosingBalance>
+    </TransactionDetail>
+</Bank>

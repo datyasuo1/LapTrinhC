@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data:DataSheet xmlns:Data="http://aptechworldwide.com" xmlns:Payment="http://aptech.ac.in">
+    <Data:Record>
+       <Data:Name>John Dykes</Data:Name>
+       <Data:Source>Cambridge</Data:Source>
+       <Data:Destinaton></Data:Destinaton>
+       <Data:TravelDetails>
+           <Data:TravelModer>Train</Data:TravelModer>
+           <Data:ModeName>Central Train</Data:ModeName>
+           <Data:TravelType>One Way</Data:TravelType>
+           <Data:TravelClass>Business Class</Data:TravelClass>
+           <Data:PNP>222355656</Data:PNP>
+       </Data:TravelDetails>
+           <Data:NumberOfPerson>2</Data:NumberOfPerson>
+           <Data:DepartureDate>03-04-07</Data:DepartureDate>
+           <Data:ReturnDate>NA</Data:ReturnDate>
+        <Data:AmountDetail>
+            <Data:ModeOfPayment>Credit Card</Data:ModeOfPayment>
+            <Data:CardType>Visa</Data:CardType>
+            <Data:Amount>$18</Data:Amount>
+        </Data:AmountDetail>
+        <DataPhone>3442446</DataPhone>
+        <Data:Hotel>
+            <Data:Address>13 Park Street,Cambridge</Data:Address>
+            <Data:CheckIn>03-04-07</Data:CheckIn>
+            <Payment:AmountDetail>
+                <Payment:ModeOfPayment>Credit Card</Payment:ModeOfPayment>
+                <Payment:CardType>Master Card</Payment:CardType>
+                <Payment:Amount>$45</Payment:Amount>
+            </Payment:AmountDetail>
+            <Data:CheckOut>10-04-07</Data:CheckOut>
+        </Data:Hotel>
+    </Data:Record>
+</Data:DataSheet>
