@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!--
+            Document    : SaleDetails_dtd.dtd
+            Author      : vincent
+            Description :
+                Purpose of the document follows.
+            TODO define vocabulary identification data
+            PUBLIC ID   : -//vendor//vocabulary//EN
+            SYSTEM ID   : http://server/path/SalesDetails_dtd.dtd
+        -->
+        <!ELEMENT SaleDetails (Sale+)>
+        <!ELEMENT Sale (BillNumber, Date, Branch, Item+, Payment)>
+        <!ELEMENT BillNumber (#PCDATA)>
+        <!ELEMENT Date (#PCDATA)>
+        <!ELEMENT Branch (#PCDATA)>
+        <!ELEMENT Item (Number, Name, Code, Quantity, Price, Discount, Total)>
+        <!ELEMENT Number (#PCDATA)>
+        <!ELEMENT Name (#PCDATA)>
+        <!ELEMENT Code (#PCDATA)>
+        <!ELEMENT Quantity (#PCDATA)>
+        <!ELEMENT Price (#PCDATA)>
+        <!ELEMENT Discount (#PCDATA)>
+        <!ELEMENT Total (#PCDATA)>
+        <!ELEMENT Payment (CardName, CustomerName, CardNumber, AccountNumber, GrandTotal)>
+        <!ELEMENT CardName (#PCDATA)>
+        <!ELEMENT CustomerName (#PCDATA)>
+        <!ELEMENT CardNumber (#PCDATA)>
+        <!ELEMENT AccountNumber (#PCDATA)>
+        <!ELEMENT GrandTotal (#PCDATA)>
+
+        <!ATTLIST Name Category (Apparel|Footwear) "Apparel">
+        <!ATTLIST Payment Mode (Card|Cash) "Card">
+        <!ATTLIST CardName Type (Credit|Debit) "Credit">
+
+        <!ENTITY VH "Van Huesen">
+        <!ENTITY AS "Allen Solly">
+        <!ENTITY PA "Park Avenue">
+        <!ENTITY RD "Reid and Taylor">
+        <!ENTITY LS "Levi Strauss">
+        <!ENTITY TH "Tommy Hilfiger">
+        <!ENTITY MC "Monte Carlo">
+        <!ENTITY MC "Marco Ricci">
+        <!ENTITY IC "ICICI">
+        <!ENTITY HD "HDFC">
+        <!ENTITY VS "VISA">
+        <!ENTITY AX "AMERICAN EXPRESS">

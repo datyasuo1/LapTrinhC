@@ -1,0 +1,69 @@
+<?xml version="1." encoding="UTF-8"?>
+<!--
+    Document    : ElectionSurvey_schema.xsd
+    Author      : vincent
+    Description :
+        This document define a schema for collecting event details to manage an event.
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/21/XMLSchema"
+           targetNamespace="http://www.creatinemanagement.com"
+           xmlns="http://www.createivemanagement.com"
+           elementFormDefault="qualified">
+    <!--definition for simple elements-->
+    <xs:element name="Customer" type="xs:string"/>
+    <xs:element name="Venue" type="xs:string"/>
+    <xs:element name="Date" type="xs:date"/>
+    <xs:element name="ContactNumber" type="xs:long"/>
+    <xs:element name="Address" type="xs:string"/>
+    <xs:element name="TechDelivery" type="xs:string"/>
+    <xs:element name="Entertainment" type="xs:string"/>
+    <xs:element name="VenueBooking" type="xs:string"/>
+    <xs:element name="Theming" type="xs:string"/>
+
+    <!--    definition for simple types-->
+    <xs:element name="NoOfGuests">
+        <xs:simpleType>
+            <xs:restricion base="xs:integer">
+                <xs:minInclusive value=""/>
+                <xs:maxInclusive value="2"/>
+            </xs:restricion>
+        </xs:simpleType>
+    </xs:element>
+
+    <!--    definition for complex elements    -->
+    <xs:element name="Event">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Customer"/>
+                <xs:element ref="Venue"/>
+                <xs:element ref="Date"/>
+                <xs:element ref="NoOfGuests"/>
+                <xs:element ref="ContactNumber"/>
+                <xs:element ref="Address"/>
+            </xs:sequence>
+            <xs:attribute name="orderid" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Service">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="TechDelivery"/>
+                <xs:element ref="Entertainment"/>
+                <xs:element ref="VenueBooking"/>
+                <xs:element ref="Theming"/>
+            </xs:sequence>
+            <xs:attribute name="category" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="EventManager">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Event" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Service" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document    : ElectionSurvey.xml
+    Author      : vincent
+    Description :
+        Purpose of the document follows.
+-->
+
+<VoterDetails xmlns="http://electionsurvey.com"
+              xmlns="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:chemaLocation="http://www.electionsurvey.com ElectionSurvey_schema.xsd">
+    <VoterName>Halle Brown</VoterName>
+    <Gender>Female</Gender>
+    <Age>24</Age>
+    <DateOfBirth>1982-05-13</DateOfBirth>
+    <Profession>Student</Profession>
+    <PhoneNumber>0402162567</PhoneNumber>
+    <City>4000 Savages</City>
+    <State>Bergen</State>
+</VoterDetails>

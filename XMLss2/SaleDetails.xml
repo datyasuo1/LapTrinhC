@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document    : SaleDetails.xml
+    Author      : vincent
+    Description :
+        This document contains sale details for a shopping mall branch.
+-->
+
+<!DOCTYPE SaleDetails SYSTEM "SaleDetails_dtd.dtd">
+<SaleDetails>
+    <Sale>
+        <BillNumber>4568</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Apparel">&LS;</Name>
+            <Code>2323</Code>
+            <Quantity>1</Quantity>
+            <Price>200</Price>
+            <Discount>10</Discount>
+            <Total>180</Total>
+        </Item>
+        <Payment Mode="Card">
+            <CardName Type="Credit">&IC;</CardName>
+            <CustomerName>Allan</CustomerName>
+            <CardNumber>99044993</CardNumber>
+            <AccountNumber>77688906</AccountNumber>
+            <GrandTotal>180</GrandTotal>
+        </Payment>
+    </Sale>
+    <Sale>
+        <BillNumber>4569</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Apparel">&PA; Blazer</Name>
+            <Code>3563</Code>
+            <Quantity>1</Quantity>
+            <Price>350</Price>
+            <Discount>0</Discount>
+            <Total>350</Total>
+        </Item>
+        <Payment Mode="Cash">
+            <CardName></CardName>
+            <CustomerName></CustomerName>
+            <CardNumber></CardNumber>
+            <AccountNumber></AccountNumber>
+            <GrandTotal>350</GrandTotal>
+        </Payment>
+    </Sale>
+    <Sale>
+        <BillNumber>4570</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Footwear">Nike Running Shoes</Name>
+            <Code>8895</Code>
+            <Quantity>1</Quantity>
+            <Price>149</Price>
+            <Discount>15</Discount>
+            <Total>126</Total>
+        </Item>
+        <Payment Mode="Card">
+            <CardName Type="Debit">&HD;</CardName>
+            <CustomerName>Henry</CustomerName>
+            <CardNumber>8904789</CardNumber>
+            <AccountNumber>8944390</AccountNumber>
+            <GrandTotal>126</GrandTotal>
+        </Payment>
+    </Sale>
+    <Sale>
+        <BillNumber>4571</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Apparel">&AS; Shirt</Name>
+            <Code>7634</Code>
+            <Quantity>3</Quantity>
+            <Price>150</Price>
+            <Discount>10</Discount>
+            <Total>405</Total>
+        </Item>
+        <Payment Mode="Cash">
+            <CardName></CardName>
+            <CustomerName></CustomerName>
+            <CardNumber></CardNumber>
+            <AccountNumber></AccountNumber>
+            <GrandTotal></GrandTotal>
+        </Payment>
+    </Sale>
+    <Sale>
+        <BillNumber>4572</BillNumber>
+        <Date>23/02/2007</Date>
+        <Branch>Hampshire</Branch>
+        <Item>
+            <Number>1</Number>
+            <Name Category="Apparel">&LS; Jacket</Name>
+            <Code>34455</Code>
+            <Quantity>1</Quantity>
+            <Price>150</Price>
+            <Discount>10</Discount>
+            <Total>135</Total>
+        </Item>
+        <Payment Mode="Card">
+            <CardName Type="Credit">&IC;</CardName>
+            <CustomerName>Charles</CustomerName>
+            <CardNumber>75134583</CardNumber>
+            <AccountNumber>89763892573</AccountNumber>
+            <GrandTotal>405</GrandTotal>
+        </Payment>
+    </Sale>
+</SaleDetails>
