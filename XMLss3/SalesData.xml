@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="SalesData_stylesheet.xsl"?>
+<!--
+    Document    :SalesData.xml
+    Author      :vincent
+    Description :
+        XML Document to store information about sales data.
+-->
+<CottonnDesk>
+    <SalesPerson>
+        <Product>Monitor</Product>
+        <Name>Harry Diana</Name>
+        <Age>23</Age>
+        <Sales>4000</Sales>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>David Blake</Name>
+        <Age>32</Age>
+        <Sales>20000</Sales>
+    </SalesPerson>
+
+    <SalesPerson>
+        <Product>Laptop</Product>
+        <Name>Susan Jones</Name>
+        <Age>55</Age>
+        <Sales>35000</Sales>
+    </SalesPerson>
+</CottonnDesk>

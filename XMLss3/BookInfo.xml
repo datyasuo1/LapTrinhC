@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="BookInfo.css"?>
+<Book>
+    <BookDetail>
+        <TitleDetail>
+            <Title>Head First Java, 2nd Edition</Title>
+            by
+            <Authors>Kathy Sierra, Bert Bates</Authors>
+            (<EditionInfor>PaperBack</EditionInfor> -
+            <PrintData>
+                Feb 9,2005
+            </PrintData>
+        </TitleDetail>
+        <Price>
+            New Price
+            <NewPrice>$29.67</NewPrice>
+            Old Price:
+            <OldPrice>$18.96</OldPrice>
+        </Price>
+
+        <OrderInfo>
+            Get it by
+            <GetDate>
+                Tuesday,Feb.27
+            </GetDate>,if you order in the next
+            <Hours>57 hours and</Hours>
+            <Minutes>43 minutes</Minutes>
+        </OrderInfo>
+        <Edition>Other Edition:
+        <EditionType>PaperBack</EditionType>
+        </Edition>
+    </BookDetail>
+
+    <BookDetail>
+        <TitleDetail>
+            <Title>Efective Java Programing Language Guide</Title>
+            by
+            <Authors>Joshua Bloch</Authors>
+            (<EditionInfor>PaperBack</EditionInfor> -
+            <PrintData>
+                Jun 5,2001
+            </PrintData>
+        </TitleDetail>
+        <Price>
+            New Price
+            <NewPrice>$45.49</NewPrice>
+            Old Price:
+            <OldPrice>$35.58</OldPrice>
+        </Price>
+
+        <OrderInfo>
+            Get it by
+            <GetDate>
+                Tuesday,Feb.27
+            </GetDate>,if you order in the next
+            <Hours>37 hours and</Hours>
+            <Minutes>47 minutes</Minutes>
+        </OrderInfo>
+        <Edition>Other Edition:
+            <EditionType>PaperBack</EditionType>
+        </Edition>
+    </BookDetail>
+
+    <BookDetail>
+        <TitleDetail>
+            <Title>SCJP Sun Certified Programmer for Java 5 Study Guide (Exam 310-055) (Certification Press Study
+                Guide)</Title>
+            by
+            <Authors>Kathy Sierra, Bert Bates</Authors>
+            (<EditionInfor>PaperBack</EditionInfor> -
+            <PrintData>
+                Dec 21,2005
+            </PrintData>
+        </TitleDetail>
+        <Price>
+            New Price
+            <NewPrice>$32.99</NewPrice>
+            Old Price:
+            <OldPrice>$30.87</OldPrice>
+        </Price>
+
+        <OrderInfo>
+            Get it by
+            <GetDate>
+                Tuesday,Feb.27
+            </GetDate>,if you order in the next
+            <Hours>37 hours and</Hours>
+            <Minutes>47 minutes</Minutes>
+        </OrderInfo>
+        <Edition>Other Edition:
+            <EditionType>PaperBack, Digital</EditionType>
+        </Edition>
+    </BookDetail>
+
+    <BookDetail>
+        <TitleDetail>
+            <Title>Beginning Programming with Java for Dummies (For Dummies(Computer/Tech))</Title>
+            by
+            <Authors>Barry Burd</Authors>
+            (<EditionInfor>PaperBack</EditionInfor> -
+            <PrintData>
+                April 15,2005
+            </PrintData>
+        </TitleDetail>
+        <Price>
+            New Price
+            <NewPrice>$17.24</NewPrice>
+            Old Price:
+            <OldPrice>$13.36</OldPrice>
+        </Price>
+
+        <OrderInfo>
+            Get it by
+            <GetDate>
+                Tuesday,Feb.27
+            </GetDate>,if you order in the next
+            <Hours>37 hours and</Hours>
+            <Minutes>13 minutes</Minutes>
+        </OrderInfo>
+        <Edition>Other Edition:
+            <EditionType>PaperBack,Digital</EditionType>
+        </Edition>
+    </BookDetail>
+
+</Book>

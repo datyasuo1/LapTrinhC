@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="Document.css"?>
+<document>
+    <title class="standout">The Discourses</title>
+    <philosopher class="standout">Epictetus</philosopher>
+    <book>Book Four</book>
+    <paragraph class="first">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aperiam aspernatur
+        assumenda cumque delectus eum facilis in omnis sapiente totam. Beatae ea natus odio quam soluta? Nostrum sint tempore vero?
+    </paragraph>
+    <paragraph>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam aliquid at consectetur consequatur consequuntur et explicabo fuga laborum? Aliquam aperiam eos explicabo non
+        omnis quasi reiciendis veritatis vero voluptates!
+    </paragraph>
+</document>

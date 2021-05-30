@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="book1.xsl"?>
+<Book>
+    <ISBN>101-45979-9-98</ISBN>
+    <Title>David's Xml</Title>
+    <Author>
+        <FirstName>Dang</FirstName>
+        <LastName>Kim Thi</LastName>
+    </Author>
+    <Chapters>
+    <Chapter>
+        <Preface>
+            <Name>Welcome</Name>
+            <Number>1</Number>
+            <Pages>2</Pages>
+        </Preface>
+    </Chapter>
+    <Chapter>
+        <Preface>
+            <Name>Working with XSL</Name>
+            <Number>3</Number>
+            <Pages>40</Pages>
+        </Preface>
+    </Chapter>
+    <Chapter>
+        <Preface>
+            <Name>Sorting in XSLT</Name>
+            <Number>4</Number>
+            <Pages>4</Pages>
+        </Preface>
+    </Chapter>
+    <Chapter>
+        <Preface>
+            <Name>More on XSL</Name>
+            <Number>2</Number>
+            <Pages>50</Pages>
+        </Preface>
+    </Chapter>
+    <Chapter>
+        <Preface>
+            <Name>XPath in XSL</Name>
+            <Number>5</Number>
+            <Pages>10</Pages>
+        </Preface>
+    </Chapter>
+    <Chapter>
+        <Preface>
+            <Name>XSL-Formatting Objects</Name>
+            <Number>1</Number>
+            <Pages>25</Pages>
+        </Preface>
+    </Chapter>
+    </Chapters>
+</Book>

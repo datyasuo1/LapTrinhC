@@ -1,0 +1,10 @@
+/*
+    Document    :Music
+    Created on  :February 27, 2007, 12:34 PM
+    Author      :vincent
+    Description :
+        Purpose of the stylesheet follows.
+ */
+Artist{ color: blue}
+*{display: block;}
+#favorite{background-color: lightblue;color: blue}

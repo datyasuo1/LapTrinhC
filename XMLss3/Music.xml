@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="Music.css"?>
+
+<!--
+    Document    :Music.xml
+    Author      :vincent
+    Description :
+        XML Document to store information about various music albums.
+-->
+
+<Music>
+    <Album>
+        <Name>DAUGHTRY</Name>
+        <Artist>Daughtry</Artist>
+        <Year>2006</Year>
+    </Album>
+    <Album>
+        <Name>AWAKE</Name>
+        <Artist>Josh Groban</Artist>
+        <Year>2006</Year>
+    </Album>
+    <Album>
+        <Name id="favorite">CONTINUUM</Name>
+        <Artist>Continuum</Artist>
+        <Year>2006</Year>
+    </Album>
+</Music>
