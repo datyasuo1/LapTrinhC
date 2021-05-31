@@ -1,0 +1,114 @@
+{
+  "menu": {
+    "header": "Abobe SVG Viewer",
+    "item": [
+      {
+        "action": "Open",
+        "id": "Open",
+        "value": "Open"
+      },
+      {
+        "action": "OpenNew",
+        "id": "OpenNew",
+        "value": "OpenNew"
+      }
+    ],
+    "separator": null,
+
+    "item": [
+      {
+        "action": "ZoomIn",
+        "id": "ZoomIn",
+        "value": "ZoomIn"
+      },
+      {
+        "action": "ZoomOut",
+        "id": "ZoomOut",
+        "value": "ZoomOut"
+      },
+      {
+        "action": "OriginalView",
+        "id": "OriginalView",
+        "value": "OriginalView"
+      }
+    ],
+    "separator": null,
+
+    "item": [
+      {
+        "action": "Quality",
+        "id": "Quality",
+        "value": "Quality"
+      },
+      {
+        "action": "Pause",
+        "id": "Pause",
+        "value": "Pause"
+      },
+      {
+        "action": "Mute",
+        "id": "Mute",
+        "value": "Mute"
+      }
+    ],
+    "separator": null,
+
+    "item": [
+      {
+        "action": "Find",
+        "id": "Find",
+        "value": "Find..."
+      },
+      {
+        "action": "FindAgain",
+        "id": "FindAgain",
+        "value": "FindAgain"
+      },
+      {
+        "action": "Copy",
+        "id": "Copy",
+        "value": "Copy"
+      },
+      {
+        "action": "CopyAgain",
+        "id": "CopyAgain",
+        "value": "CopyAgain"
+      },
+      {
+        "action": "CopySVG",
+        "id": "CopySVG",
+        "value": "CopySVG"
+      },
+      {
+        "action": "ViewSVG",
+        "id": "ViewSVG",
+        "value": "ViewSVG"
+      },
+      {
+        "action": "ViewSource",
+        "id": "ViewSource",
+        "value": "ViewSource"
+      },
+      {
+        "action": "SaveAs",
+        "id": "SaveAs",
+        "value": "SaveAs"
+      }
+
+    ],
+    "separator": null,
+
+    "item": [
+      {
+        "action": "Help",
+        "id": "Help",
+        "value": "Help"
+      },
+      {
+        "action": "About",
+        "id": "About",
+        "value": "About Adobe CVG Viewer..."
+      }
+    ]
+  }
+}
